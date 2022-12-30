@@ -2,8 +2,8 @@ local library = {
 		flags = { },
 		items = { }
 	}
-    if _G.Color == nil then _G.Color = Color3.fromRGB(33, 70, 199) end
-    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(33, 70, 199) end
+    if _G.Color == nil then _G.Color = Color3.fromRGB(0, 8, 193) end
+    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(0, 8, 193) end
     -- Services
 	local players = game:GetService("Players")
 	local uis = game:GetService("UserInputService")
@@ -36,8 +36,8 @@ local library = {
         topheight = 48,
         topcolor = Color3.fromRGB(30, 30, 30),
         topcolor2 = Color3.fromRGB(15, 15, 15),
-        buttoncolor = Color3.fromRGB(49, 49, 49),
-        buttoncolor2 = Color3.fromRGB(39, 39, 39),
+        buttoncolor = Color3.fromRGB(0, 8, 193),
+        buttoncolor2 = Color3.fromRGB(0, 8, 193),
         itemscolor = Color3.fromRGB(200, 200, 200),
         itemscolor2 = Color3.fromRGB(210, 210, 210)}
 	if library.theme.cursor and Drawing then
